@@ -14,14 +14,15 @@
 	<div class="jumbotron">
 		<div class="panel panel-success">
 			<%
-				Empresa cliente = (Empresa) request.getAttribute("empresa");
+				Empresa empresa = (Empresa) request.getAttribute("empresa");
 			%>
 			<div class="panel-heading">
-				Id:	<%=cliente.getId()%></div>
+				Id:${empresa.id }]</div>
 			<div class="panel-body">
-				Nome:<%=cliente.getNome()%><br> 
-				Fone:<%=cliente.getCnpj()%><br> 
-				E-mail:<%=cliente.getConjunto()%>
+				Nome:${empresa.nome }<br> 
+				cnpj:${empresa.cnpj }<br> 
+				Conjunto:${empresa.conjunto }<br>
+				
 			</div>
 		</div>
 		</div>
