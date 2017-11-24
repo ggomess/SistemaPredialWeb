@@ -27,7 +27,7 @@ public class JsonFacade {
 		Gson gson = new Gson();
 		String json = gson.toJson(lista);
 
-		return json;
+		return json; 
 	}
 
 	@SuppressWarnings("unchecked")

@@ -64,7 +64,7 @@ public class JsonEmpresa extends HttpServlet {
 			EmpresaService es = new EmpresaService();
 			empresa = JsonFacade.FromJson(json, empresa);
 			
-			es.criar(empresa);
+			es.criar(empresa); 
 			
 			} catch(Exception ex) {
 				throw ex;

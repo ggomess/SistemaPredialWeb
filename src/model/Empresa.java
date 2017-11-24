@@ -20,7 +20,7 @@ public class Empresa implements Serializable {
 		this.id = id;
 	}
 
-	public String getNome() {
+	public String getNome() { 
 		return nome;
 	}
 
